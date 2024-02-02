@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #e4e4e4;
+}
+
+.apple img {
+    width: 50px;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list ul li {
+    list-style: none;
+    padding-right: 10px;
+}
+
+#bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+#bar .iphone {
+    padding: 20px 20px;
+    border: 1px solid rgba(29, 28, 34, 0.842);
+    height: 400px;
+    width: 200px;
+    background-color: #6f7378;
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin:0 50px 0 0px;
+}
+
+#bar .iphone img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main{
+    width: 100%;
+}
+
+.main .picture img{
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.main .txt-area{
+    width: 80%;
+    margin-top: 20px;
+}
